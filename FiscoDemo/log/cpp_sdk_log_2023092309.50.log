@@ -1,0 +1,12 @@
+info|2023-09-23 09:50:28.696437|[SDK][WS][SERVICE],[NEWOBJ][WsService]=000002946188DC70
+info|2023-09-23 09:50:28.696437|[RPCWS][SERVICE]init the local protocol,minVersion=1,maxVersion=1,module=2
+info|2023-09-23 09:50:28.711328|[DEFAULT][WS][INITIALIZER][initWsService]start websocket service as client,connected size=2
+info|2023-09-23 09:50:28.711328|[DEFAULT][WS][INITIALIZER][initWsService]initializer for websocket service,listenIP=,listenPort=0,disableSsl=false,server=false,client=true,threadPoolSize=8,maxMsgSize=33554432,msgTimeOut=-1,connected peers=2
+info|2023-09-23 09:50:28.712325|[bcos_sdk_create][NEWOBJ],sdk=00000294611B3260
+warning|2023-09-23 09:50:32.147667|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect failed,error=由于目标计算机积极拒绝，无法连接。,endpoint=127.0.0.1:20200
+warning|2023-09-23 09:50:32.147667|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect failed,error=由于目标计算机积极拒绝，无法连接。,endpoint=127.0.0.1:20201
+info|2023-09-23 09:50:32.149653|[SDK][WS][SERVICE][stop]stop websocket service successfully
+error|2023-09-23 09:50:32.151374|[bcos_sdk_start],sdk=00000294611B3260,errorMsg=C:\.hunter\_Base\0ba8099\ce384fc\4b614a0\Build\bcos-boostssl\Source\bcos-boostssl\websocket\WsService.cpp(223): Throw in function void __cdecl bcos::boostssl::ws::WsService::syncConnectToEndpoints(class std::shared_ptr<class std::set<struct bcos::boostssl::NodeIPEndpoint,struct std::less<struct bcos::boostssl::NodeIPEndpoint>,class std::allocator<struct bcos::boostssl::NodeIPEndpoint> > >)
+Dynamic exception type: struct boost::wrapexcept<class std::runtime_error>
+std::exception::what: [由于目标计算机积极拒绝，无法连接。:/127.0.0.1:20200, 由于目标计算机积极拒绝，无法连接。:/127.0.0.1:20201]
+info|2023-09-23 09:50:32.151374|[bcos_sdk_start],sdk=00000294611B3260

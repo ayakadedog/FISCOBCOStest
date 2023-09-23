@@ -1,0 +1,5 @@
+info|2023-09-23 09:47:13.362309|[SDK][WS][SERVICE],[NEWOBJ][WsService]=000001B458036130
+info|2023-09-23 09:47:13.362309|[RPCWS][SERVICE]init the local protocol,minVersion=1,maxVersion=1,module=2
+info|2023-09-23 09:47:13.365299|[DEFAULT][WS][INITIALIZER][initWsService]start websocket service as client,connected size=2
+info|2023-09-23 09:47:13.365299|[DEFAULT][WS][INITIALIZER][initWsService]initializer for websocket service,listenIP=,listenPort=0,disableSsl=false,server=false,client=true,threadPoolSize=8,maxMsgSize=33554432,msgTimeOut=-1,connected peers=2
+info|2023-09-23 09:47:13.365299|[bcos_sdk_create][NEWOBJ],sdk=000001B4580A41B0
